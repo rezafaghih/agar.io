@@ -1,0 +1,28 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#localPlayer{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: red;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    border-radius: 100%;
+    transition: 50ms;
+}
+
+
+#localPlayer span{
+    word-break: break-all;
+}
